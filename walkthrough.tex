@@ -1,22 +1,32 @@
+% parametros del documento
 \documentclass[11pt,a4paper]{article}
 \usepackage[margin=2cm, top=3cm, includefoot]{geometry} 
 
-\usepackage[utf8]{inputenc}
-\usepackage[spanish]{babel}
-\usepackage[parfill]{parskip}
-\usepackage[hidelinks]{hyperref}
-\usepackage{fancyvrb}
-\usepackage{listings}
-\usepackage{xcolor}
-\usepackage{graphicx}
-\usepackage{fancyhdr}
+% importacion de modulos necesarios
+\usepackage[utf8]{inputenc} % codificacion UTF-8
+\usepackage[spanish]{babel} % para el idioma español
+\usepackage[parfill]{parskip} % para ajustar el espaciado
+\usepackage[hidelinks]{hyperref} % para la insercion de links
+\usepackage{fancyvrb} % para el uso de formatos personalizados
+\usepackage{listings} % para la insercion de código fuente
+\usepackage{xcolor} % para ña insercion de colores
+\usepackage{graphicx} % para la insercion de imagenes
+\usepackage{fancyhdr} % para el ajuste de las cabeceras
 
+% importacion de modulos externos 
+\input{gitinfo.tex} % para la obtencion de los datos de control
+
+% definicion de variables de color
 \definecolor{codegreen}{rgb}{0,0.6,0}
 \definecolor{codegray}{rgb}{0.5,0.5,0.5}
 \definecolor{codepurple}{rgb}{0.58,0,0.82}
 \definecolor{backcolour}{rgb}{0.95,0.95,0.92}
 \definecolor{background}{HTML}{dbdbdb}
 
+% definicion de variables de imagenes
+\newcommand{\enterpriselogo}{images/colnex.png}
+
+% definicion del formato de las inserciones de codigo
 \lstdefinestyle{mystyle}{
     backgroundcolor=\color{backcolour},   
     commentstyle=\color{codegreen},
@@ -35,21 +45,22 @@
     showtabs=false,                  
     tabsize=2
 }
-
-\input{gitinfo.tex}
-
 \lstset{style=mystyle}
-\newcommand{\enterpriselogo}{images/colnex.png}
 
+% cambio de nombre para la tabla de contenidos
 \addto\captionsspanish{\renewcommand{\contentsname}{Índice de Contenidos}}
+
+% definicion del formato de la cabecera
 \setlength{\headheight}{50pt}
 \pagestyle{fancy}
 \fancyhf{}
 \rhead{\includegraphics[width=3cm]{\enterpriselogo}}
 \renewcommand{\headrule}{\hbox to\headwidth{\color{background}\leaders\hrule height \headrulewidth\hfill}}
 
+% inicio del documento
 \begin{document}
 
+% portada
 \begin{titlepage}
     \centering
     \includegraphics[width=0.4\textwidth]{\enterpriselogo}
@@ -60,7 +71,7 @@
     {\Large\bfseries Montaje del servicio de Front-End con Docker}
     \vfill
     \begin{flushright}
-        {\large {\bfseries Fecha de Creación:} 2024/02/21}\par\vspace{0.2cm}
+        {\large {\bfseries Fecha de Creación:} \gitcreated}\par\vspace{0.2cm}
         {\large {\bfseries Última Actualización:} \gitdate{}}\par\vspace{0.3cm}
         {\large {\bfseries Versión del Documento:} \gitversion{}}
     \end{flushright}
@@ -69,10 +80,19 @@
   No debe ser impreso, divulgado o compartido con terceros.
 \end{titlepage}
 
+% tabla de contenidos
 \pagenumbering{Roman}
 \tableofcontents
 \newpage
 \pagenumbering{arabic}
+
+% inicio de contenidos
+
+\section{Introducción}
+Este documento pretende explicar de manera detallada el proceso requerido para la descarga,
+instalación y montaje del servicio de Front-End a partir de Docker.\par
+Dentro del alcance de estos desarrollos se incluyen todos los colaboradores asociados al
+desarrollo del programa de reporte de actividades de Colnex SI en el campo de la programación web.
 
 \section{Descarga de la imagen de Docker}
 El primer paso es adquirir la imagen desde la url en que se aloja:\par
@@ -165,4 +185,5 @@ al ejecutar el siguiente comando para posteriormente copiar el image ID:
     \end{lstlisting}
 \end{figure}
 
+% final de contenidos y del documento
 \end{document}

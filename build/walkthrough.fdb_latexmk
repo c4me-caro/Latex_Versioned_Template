@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1720794038 "c:/Users/caleb/OneDrive/Documentos/walkthrough_frontend/walkthrough.tex" "build/walkthrough.pdf" "walkthrough" 1720794040 0
+["pdflatex"] 1720796340 "c:/Users/caleb/OneDrive/Documentos/walkthrough_frontend/walkthrough.tex" "build/walkthrough.pdf" "walkthrough" 1720796342 0
   "C:/Users/caleb/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1720750292 80909 eab91d9745dd2edfd62a31d53cd5fe15 ""
   "C:/Users/caleb/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1702170142 24141908 d88ad7538a721d987b7d1eff1d7da423 ""
   "C:/Users/caleb/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmbx10.tfm" 1136765053 1328 c834bbb027764024c09d3d2bf908b5f0 ""
@@ -87,14 +87,14 @@
   "C:/Users/caleb/AppData/Local/Programs/MiKTeX/tex/latex/rerunfilecheck/rerunfilecheck.sty" 1657800696 9714 ba3194bd52c8499b3f1e3eb91d409670 ""
   "C:/Users/caleb/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388490452 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "C:/Users/caleb/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1656236890 56148 51a9a8571c07b9921892ae11063ae853 ""
-  "build/walkthrough.aux" 1720794039 1576 811a93d60846ab1d8ed5c0581017518f "pdflatex"
-  "build/walkthrough.out" 1720794039 1683 147b08baab98b97bb8db76ec6b7a920c "pdflatex"
-  "build/walkthrough.toc" 1720794039 644 3b7890876497698713ce44431bf7e822 "pdflatex"
-  "c:/Users/caleb/OneDrive/Documentos/walkthrough_frontend/walkthrough.tex" 1720792775 5657 fdf8c91d51f6eb8657340098822186e6 ""
-  "gitinfo.tex" 1720794037 72 ff396b83402d0d8f7817823a1f076ad4 ""
+  "build/walkthrough.aux" 1720796342 1686 702914d24433d96917891d121d6c5d1a "pdflatex"
+  "build/walkthrough.out" 1720796342 1789 561861587bc593846750dae394edd301 "pdflatex"
+  "build/walkthrough.toc" 1720796342 713 dcc5933212910c30d207b63b3dd37dc0 "pdflatex"
+  "c:/Users/caleb/OneDrive/Documentos/walkthrough_frontend/walkthrough.tex" 1720796339 6813 cb069ae104f18e9d2db500773d5fcaaa ""
+  "gitinfo.tex" 1720794974 111 079e601c4ec426c901c7c3d1f834c207 ""
   "images/colnex.png" 1702176114 91747 523dc8e6676dd3340f5ef00ebec592b3 ""
   "images/img001.png" 1709327688 10699 8cef7d4865be4b13b1196a207900ca24 ""
-  "walkthrough.tex" 1720792775 5657 fdf8c91d51f6eb8657340098822186e6 ""
+  "walkthrough.tex" 1720796339 6813 cb069ae104f18e9d2db500773d5fcaaa ""
   (generated)
   "build/walkthrough.aux"
   "build/walkthrough.log"
