@@ -1,8 +1,0 @@
-\babel@toc {spanish}{}\relax 
-\contentsline {section}{\numberline {1}Introducción}{1}{section.1}%
-\contentsline {section}{\numberline {2}Descarga de la imagen de Docker}{1}{section.2}%
-\contentsline {section}{\numberline {3}Comprobación de la integridad del archivo}{1}{section.3}%
-\contentsline {section}{\numberline {4}Montaje de la imagen de Docker}{2}{section.4}%
-\contentsline {section}{\numberline {5}Notas de ejecución}{2}{section.5}%
-\contentsline {subsection}{\numberline {5.1}Copiaremos el ID que aparece debajo del nombre de nuestra imagen en Docker Desktop}{2}{subsection.5.1}%
-\contentsline {subsection}{\numberline {5.2}Reemplazaremos la etiqueta frontend por el ID obtenido}{3}{subsection.5.2}%
